@@ -79,3 +79,52 @@ Tillgängligheten kan påverkas om konton eller system missbrukas så att medarb
 | Störning i verksamhetssystem | Låg | Medel–hög, beroende på hur viktigt systemet är |
 
 Bedömningarna är preliminära eftersom jag har begränsad information. De bör ses över igen när det finns mer evidens.
+## 5. Koppling till CIS Controls 6, 8 och 14
+
+### 5.1 CIS Control 6 – Access Control Management
+CIS Control 6 handlar om hur användares åtkomst till system och information hanteras. Kommunen bör kolla vilka behörigheter det berörda kontot har. Om behörigheterna är begränsade blir skadan mindre om kontot skulle bli komprometterat.
+
+**Verifiering:** Gå igenom kontots behörigheter och dokumentera om de följer kommunens regler för åtkomst.
+
+### 5.2 CIS Control 8 – Audit Log Management
+CIS Control 8 handlar om logghantering. Med hjälp av loggar kan kommunen se om det har förekommit ovanliga inloggningsförsök eller annan misstänkt aktivitet.
+
+**Verifiering:** Skriv ner vilka loggar och vilken tidsperiod som har granskats, och om något avvikande hittades.
+
+### 5.3 CIS Control 14 – Security Awareness and Skills Training
+CIS Control 14 handlar om säkerhetsmedvetenhet och utbildning. Medarbetarna behöver kunna känna igen misstänkta mejl och veta hur de ska rapportera dem.
+
+**Verifiering:** Kolla att det finns en tydlig rutin för rapportering och att medarbetarna känner till den.
+
+## 6. Prioriterade säkerhetsåtgärder
+
+### Åtgärd 1: Undersök mejlen och länken
+Titta på avsändaradressen, e-posthuvudena och webbadressen som länken går till. Ta reda på om fler medarbetare har fått mejlet. Länken ska inte öppnas på en vanlig arbetsdator för att testa den.
+
+**Varför:** Då går det att bedöma om mejlet är skadligt och vilka som kan vara berörda.
+
+**Verifiering:** Dokumentera vilka mejl och länkar som har undersökts och vilka slutsatser som faktiskt stöds av evidens.
+
+### Åtgärd 2: Granska loggar och kontot
+Gå igenom relevanta inloggningsloggar, loggar från e-postsystemet och loggar från den berörda enheten. Leta efter ovanliga inloggningsförsök eller annan misstänkt aktivitet. Om det finns konkreta tecken på att kontot har utsatts för något bör kommunen skydda det enligt sina rutiner.
+
+**Varför:** Det kan visa om någon har fått obehörig åtkomst.
+
+**Verifiering:** Dokumentera vilken tidsperiod och vilka loggar som har granskats, och eventuella avvikelser. Att man inte hittar något betyder inte automatiskt att inget intrång har skett.
+
+### Åtgärd 3: Förbättra rutinerna för rapportering
+Se till att medarbetarna vet hur de rapporterar misstänkta mejl, och att de aldrig ska lämna ut inloggningsuppgifter via länkar de inte väntat sig.
+
+**Varför:** Med tydliga rutiner blir det lättare att upptäcka och hantera misstänkta mejl tidigare.
+
+**Verifiering:** Kolla att instruktionerna finns tillgängliga och att medarbetarna vet hur man rapporterar ett misstänkt mejl.
+
+## 7. Teknisk koppling
+
+Ett möjligt sätt att angripa är att skicka ett mejl som leder till en falsk inloggningssida. Om en användare skriver in sina uppgifter där kan angriparen försöka använda dem för att logga in på användarens konto.
+
+Det är inte bekräftat att länken i det här fallet går till en falsk sida, eller att några inloggningsuppgifter har samlats in.
+
+Kommunen kan undersöka händelsen genom att titta på mejlets tekniska information, länken och de inloggningsloggar som är relevanta. Om kommunen använder flerfaktorsautentisering bör den också kolla om det finns tecken på misstänkta inloggningsförsök.
+
+Tekniska kontroller behöver kombineras med tydliga rutiner och begränsade behörigheter. Ingen enskild kontroll kan garantera att alla phishingförsök stoppas.
