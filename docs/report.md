@@ -128,3 +128,12 @@ Det är inte bekräftat att länken i det här fallet går till en falsk sida, e
 Kommunen kan undersöka händelsen genom att titta på mejlets tekniska information, länken och de inloggningsloggar som är relevanta. Om kommunen använder flerfaktorsautentisering bör den också kolla om det finns tecken på misstänkta inloggningsförsök.
 
 Tekniska kontroller behöver kombineras med tydliga rutiner och begränsade behörigheter. Ingen enskild kontroll kan garantera att alla phishingförsök stoppas.
+Engelska versionen 
+## 8. English Security Summary
+
+A municipal department has received several emails that appear to come from internal IT support. The emails ask employees to log in through a link to keep access to an internal system. One employee opened the link but reported not entering any login details. No intrusion has been confirmed, and it is unknown whether AI was used to write the emails.
+
+The emails may be part of a phishing attempt to steal login credentials. If an account is compromised, an attacker could gain unauthorized access to information or systems. The risk depends on the account’s permissions and existing security controls.
+
+The analysis uses the CIA triad and CIS Controls 6, 8, and 14. Recommended actions include examining the emails and link, reviewing relevant logs and account permissions, and ensuring employees know how to report suspicious emails. There is not enough evidence to conclude that a security breach has occurred.
+
