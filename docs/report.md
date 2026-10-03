@@ -79,6 +79,7 @@ Tillgängligheten kan påverkas om konton eller system missbrukas så att medarb
 | Störning i verksamhetssystem | Låg | Medel–hög, beroende på hur viktigt systemet är |
 
 Bedömningarna är preliminära eftersom jag har begränsad information. De bör ses över igen när det finns mer evidens.
+Sannolikheten för insamling av inloggningsuppgifter bedöms som medel eftersom en mottagare faktiskt har öppnat länken, medan övriga risker bedöms lägre eftersom inga uppgifter eller intrång är bekräftade.
 ## 5. Koppling till CIS Controls 6, 8 och 14
 
 ### 5.1 CIS Control 6 – Access Control Management
